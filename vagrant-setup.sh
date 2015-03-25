@@ -40,3 +40,4 @@ echo "source virtualenvwrapper.sh" > /home/vagrant/.bashrc
 chmod a+x /home/vagrant/.bashrc
 
 git clone https://github.com/hypothesis/h.git
+chown -R vagrant h
